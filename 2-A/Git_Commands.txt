@@ -1,0 +1,19 @@
+git init                   # Initialize a new Git repository  
+git clone <repo_url>       # Clone an existing repository  
+git status                 # Show the working directory status  
+git add <file>             # Stage changes for commit  
+git add .                  # Stage all changes  
+git commit -m "message"    # Commit changes with a message  
+git push origin <branch>   # Push commits to a remote repository  
+git pull origin <branch>   # Fetch and merge changes from remote  
+git fetch                  # Fetch latest changes without merging  
+git branch                 # List branches  
+git branch <name>          # Create a new branch  
+git checkout <branch>      # Switch to another branch  
+git checkout -b <name>     # Create and switch to a new branch  
+git merge <branch>         # Merge a branch into the current branch  
+git branch -d <branch>     # Delete a branch  
+git log                    # Show commit history  
+git log --oneline --graph  # Compact commit history  
+git diff                   # Show file differences  
+git show <commit>          # Show details of a commit  
