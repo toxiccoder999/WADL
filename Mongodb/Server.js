@@ -5,7 +5,7 @@ const bodyParser=require('body-parser')
 const app=express()
 app.use(bodyParser.json());
 
-const MONGO_URI = "mongodb+srv://om_786:nHyQBtZFkdWSC3SJ@news.z6h2bw0.mongodb.net/?retryWrites=true&w=majority&appName=News";
+const MONGO_URI = "Your_uri";
 
 mongoose.connect(MONGO_URI, 
     { useNewUrlParser: true, useUnifiedTopology: true })
